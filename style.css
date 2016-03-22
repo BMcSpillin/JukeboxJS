@@ -1,0 +1,99 @@
+html {
+  font-family: 'Tillana', cursive;
+  box-sizing: border-box;
+  color: #6f1f31;
+  text-align: center;
+}
+
+body {
+  height: 100%;
+  background: url("Jukebox/Swing.png") no-repeat;
+  background-size: cover;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, .5);;
+}
+
+.cf {
+  clear: both;
+}
+
+header {
+  background-color: rgba(255, 255, 255, .5);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+h1 {
+  padding: 0;
+}
+
+#nowPlaying {
+  display: inline-block;
+  position: relative;
+  margin: 15px auto;
+  top: 90px;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+#nowPlaying img {
+  width: 200px;
+  height: 200px;
+}
+
+#nowPlaying div {
+  width: 320px;
+  height: 120px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+h3, h4 {
+  padding: none;
+}
+
+.current {
+  display: block;
+  margin: 30px auto;
+}
+
+#onDeck img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, .5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+}
+
+footer div {
+  display: inline-block;
+}
+
+#controllers {
+  width: 210px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 45px;
+  right: 40px;
+}
+
+#controllers button {
+  margin: 0 auto;
+  background-color: #6f1f31;
+  color: white;
+}
